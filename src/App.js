@@ -1,8 +1,5 @@
 import { Redirect, Route, Switch } from "react-router-dom";
-import AllQuotes from "./pages/AllQuotes";
-import QuoteDetail from "./pages/QuoteDetail";
 import Layout from "./components/layout/Layout";
-import NotFound from "./pages/NotFound";
 import React, { Suspense } from "react";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
 
