@@ -8,6 +8,7 @@ import { getSingleQuote } from "../lib/api";
 import LoadingSpinner from "../components/UI/LoadingSpinner";
 
 const QuoteDetail = () => {
+  console.log("Demo console log for the sake of testing the commit author");
   const params = useParams();
   const match = useRouteMatch();
   const { quoteID } = params;
